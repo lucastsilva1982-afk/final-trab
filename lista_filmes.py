@@ -1,8 +1,8 @@
 filmes = []
 resp = "s"
 # Menu Wachtlist #
-
-while (resp == "s"):
+opcao = -1
+while (opcao !=0):
     opcao = int(input("Informe a opção desejada (1 - Adicionar título, 2 - Visualizar watchlist, 3 - Ver quantidade de títulos, 4 - Verificar se um título está na lista, 5 - Remover título, 0 - Sair): " ))
 
 # Adicionar Titulos #
@@ -14,7 +14,7 @@ while (resp == "s"):
             print("Filme adicionado com sucesso!")
         else:
             print("Filme já cadastrado!")
-        resp = input("Deseja cadastrar outro titulo ? (S/N): ").strip().lower()
+      #  resp = input("Deseja cadastrar outro titulo ? (S/N): ").strip().lower()
 
 # Visualizar Watchlist #
 
