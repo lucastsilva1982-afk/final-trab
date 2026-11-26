@@ -3,7 +3,7 @@ resp = "s"
 # Menu Wachtlist #
 
 while (resp == "s"):
-    opcao = int(input("Informe a opção desejada (1 - Adicionar título, 2 - Visualizar watchlist, ""3 - Ver quantidade de títulos, 4 - Verificar se um título está na lista, ""5 - Remover título, 0 - Sair): " ))
+    opcao = int(input("Informe a opção desejada (1 - Adicionar título, 2 - Visualizar watchlist, 3 - Ver quantidade de títulos, 4 - Verificar se um título está na lista, 5 - Remover título, 0 - Sair): " ))
 
 # Adicionar Titulos #
 
